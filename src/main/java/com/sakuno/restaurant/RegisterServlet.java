@@ -1,21 +1,20 @@
 package com.sakuno.restaurant;
 
-import java.io.*;
-
 import com.sakuno.restaurant.json.CustomerRegisterInfo;
 import com.sakuno.restaurant.utils.CustomerAccountManager;
-import com.sakuno.restaurant.utils.DatabaseEntrance;
-import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+import java.io.IOException;
+
+@WebServlet(name = "register", value = "/register")
+public class RegisterServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("hello.html");
-        dispatcher.forward(request, response);
+        doPost(request, response);
     }
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {

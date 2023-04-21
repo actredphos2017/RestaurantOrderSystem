@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="restaurant:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa7b828-6a31-4227-9211-e48256e94331" name="更改" comment="">
+    <list default="true" id="0fa7b828-6a31-4227-9211-e48256e94331" name="更改" comment="Project Init">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initDatabase.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/ContextInitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/Globals.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/json/CustomerFullInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/json/CustomerLoginInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/json/CustomerRegisterInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/utils/CustomerAccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/utils/DatabaseEntrance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/utils/StateBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/message.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakuno/restaurant/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,24 +40,66 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="2OhA3uChruSTg1vR1aeOJPCttMw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
+      "JSON"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\actre\IdeaProjects\RestaurantOrderSystem\src\main\webapp" />
+      <recent name="C:\Users\actre\IdeaProjects\RestaurantOrderSystem\src\main\resources" />
+      <recent name="C:\Users\actre\IdeaProjects\RestaurantOrderSystem\src\main\java\com\sakuno\restaurant" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.7" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -80,11 +148,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682002245817</updated>
-      <workItem from="1682002246943" duration="6000" />
+      <workItem from="1682002246943" duration="3063000" />
+      <workItem from="1682005323967" duration="1062000" />
+      <workItem from="1682006406293" duration="2680000" />
+      <workItem from="1682042298886" duration="8306000" />
     </task>
+    <task id="LOCAL-00001" summary="Project Init">
+      <created>1682002369514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682002369514</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Init" />
   </component>
 </project>
